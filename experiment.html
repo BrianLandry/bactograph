@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,175 +8,197 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/favicon.ico">
-
     <title>Bactograph</title>
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
-</head>
-<!-- NAVBAR
-================================================== -->
-
-<body>
-    <div class="navbar-wrapper">
-        <div class="container">
-
-            <nav class="navbar navbar-inverse navbar-static-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">Bactograph</a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="science.html">The Science</a>
-                            </li>
-                            <li><a href="prep.html">Prep Day</a>
-                            </li>
-                            <li class="active"><a href="experiment.html">Experiment</a>
-                            </li>
-                            <li><a href="materials.html">Teaching Materials</a>
-                            </li>
-                            <li><a href="about.html">About</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-
-    <!-- Marketing messaging and featurettes
+  </head>
+  <!-- NAVBAR
     ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-    
-        <a href="#" class="btn btn-block btn-lg btn-default"><span class="glyphicon glyphicon-save"></span> Download PDF of Manual</a>
-        
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Prepare supplies</h2>
-                <p class="lead"></p>
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Bactograph</a>
             </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="" data-holder-rendered="true">
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="science.html">The Science</a>
+                </li>
+                <li><a href="materials.html">Teaching Materials</a>
+                </li>
+                <li class="active"><a href="experiment.html">Experimental Protocol</a>
+                </li>
+              </ul>
             </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h1>Preparation Day</h1>
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="exp-heading">Melt Media</h2>
+                  <p class="lead">Take the media tube and submerge it in boiling water until it completely liquefies (approximately 10 minutes). Store the melted media in the 37 degree incubator. This can be done any time at least 2 hours prior to the experimental day protocol, since the media simply has to cool to 37 degrees before use.</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/boiling.svg" data-holder-rendered="true">
+                </div>
+              </div>
+              <hr class="featurette-divider">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="exp-heading">Set Up Lights</h2>
+                  <p class="lead">If the light chamber did not come constructed follow these steps. After it is constructed place it in the incubator.</p>
+                  <ol>
+                    <li><p class="lead">Line up the 4 bottom pieces in parallel. The edges labelled ‘top’ are near the top. </p></li>
+                    <li><p class="lead">Slide the grooves of the pegged pieces into the bottom grooves, such that the pegged pieces are perpendicular to the downside pieces. The edges labelled ‘top’ should be rightside up, so that a grid is formed. All square pegs should face up.</p></li>
+                    <li><p class="lead">The cover should click onto the grid, with each of the small square pegs of the grid fitting into the square holes of the top cover. The LEDs should shine into the chamber.</p></li>
+                  </ol>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/chambers.svg" data-holder-rendered="true">
+                </div>
+              </div>
+              <hr class="featurette-divider">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="exp-heading">Culture Bacteria</h2>
+                  <p class="lead">Using a sterile object (pipette tips work) scrap bacteria from the hole in the agar stab and then shake off the tip in the culture media. Place the culture media in the 37 degree incubator and allow it to grow for 24 hours.</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/culturing.svg" data-holder-rendered="true">
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/media-step.svg" data-holder-rendered="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h1>Experimental Day</h1>
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              <hr class="featurette-divider">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">Prepare supplies</h2>
+                  <p class="lead"></p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="" data-holder-rendered="true">
+                </div>
+              </div>
+              <hr class="featurette-divider">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">Add bacterial media</h2>
+                  <p class="lead">Use the pipette to transfer two volumes of bacterial media from the class supply to your petri dish. Transfer the media by fully depressing the bulb of the pipette and sucking up the media, then fully depress the bulb over the petri dish dispensing the liquid. Do this transfer twice for two pipette volumes. Make sure to transfer to the bottom of the petri dish (smaller side)!</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/media-step.svg" data-holder-rendered="true">
+                </div>
+              </div>
+              <hr class="featurette-divider">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">Add bacteria</h2>
+                  <p class="lead">Use the pipette to transfer one volume of bacteria from the class bacterial culture to your petria dish. Use the same method described in the previous step, however just transfer one volume.</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/bacteria-step.svg" data-holder-rendered="true">
+                </div>
+              </div>
+              <hr class="featurette-divider">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">Mix in bacteria</h2>
+                  <p class="lead">Mix the bacteria into the bacterial media by slowly swirling your petri dish for 15 rotations. If any bubbles have formed use the pipette to pop them or suck them up.</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/mix-step.svg" data-holder-rendered="true">
+                </div>
+              </div>
+              <hr class="featurette-divider">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">Solidify media</h2>
+                  <p class="lead">Place the lid on the petri dish. Solidify the media by placing the petri dish in 1/4 inch deep ice water and holding the dish down (and level) for 5 minutes. Insure the media has solidified by tilting the petri dish.</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/ice-step.svg" data-holder-rendered="true">
+                </div>
+              </div>
+              <hr class="featurette-divider">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">Attach image and incubate</h2>
+                  <p class="lead">Draw the picture you want to take on a piece of transparency and cut it out. Flip the petri dish upside down and attach the cut out piece of transparency to the petri dish using clear tape. Place the dish into an illuminated incubator.</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/tape-step.svg" data-holder-rendered="true">
+                </div>
+              </div>
+              <hr class="featurette-divider">
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading">View bacterial photograph</h2>
+                  <p class="lead">After incubating for at least 24 hours remove the petri dish from the incubator. Detach the transparency and admire your bacterial photograph!</p>
+                </div>
+                <div class="col-md-5">
+                  <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/nikitha.jpg" data-holder-rendered="true">
+                </div>
+              </div>
+              <hr class="featurette-divider">
             </div>
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Add bacterial media</h2>
-                <p class="lead">Use the pipette to transfer two volumes of bacterial media from the class supply to your petri dish. Transfer the media by fully depressing the bulb of the pipette and sucking up the media, then fully depress the bulb over the petri dish dispensing the liquid. Do this transfer twice for two pipette volumes. Make sure to transfer to the bottom of the petri dish (smaller side)!</p>
-            </div>
+          </div>
         </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Add bacteria</h2>
-                <p class="lead">Use the pipette to transfer one volume of bacteria from the class bacterial culture to your petria dish. Use the same method described in the previous step, however just transfer one volume.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/bacteria-step.svg" data-holder-rendered="true">
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/mix-step.svg" data-holder-rendered="true">
-            </div>
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Mix in bacteria</h2>
-                <p class="lead">Mix the bacteria into the bacterial media by slowly swirling your petri dish for 15 rotations. If any bubbles have formed use the pipette to pop them or suck them up.</p>
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Solidify media</h2>
-                <p class="lead">Place the lid on the petri dish. Solidify the media by placing the petri dish in 1/4 inch deep ice water and holding the dish down (and level) for 5 minutes. Insure the media has solidified by tilting the petri dish.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/ice-step.svg" data-holder-rendered="true">
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/tape-step.svg" data-holder-rendered="true">
-            </div>
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Attach image and incubate</h2>
-                <p class="lead">Draw the picture you want to take on a piece of transparency and cut it out. Flip the petri dish upside down and attach the cut out piece of transparency to the petri dish using clear tape. Place the dish into an illuminated incubator.</p>
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">View bacterial photograph</h2>
-                <p class="lead">After incubating for at least 24 hours remove the petri dish from the incubator. Detach the transparency and admire your bacterial photograph!</p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/nikitha.jpg" data-holder-rendered="true">
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-    
-        <a href="#" class="btn btn-block btn-lg btn-default"><span class="glyphicon glyphicon-save"></span> Download PDF of Manual</a>
-        
-
-        <!-- FOOTER -->
-        <footer>
-            <p class="pull-right"><a href="#">Back to top</a>
-            </p>
-        </footer>
-
+      </div>
+      <!-- /END THE FEATURETTES -->
+      <a href="#" class="btn btn-block btn-lg btn-default"><span class="glyphicon glyphicon-save"></span> Download PDF of Manual</a>
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a>
+        </p>
+      </footer>
     </div>
     <!-- /.container -->
-
     <!-- Bootstrap core JavaScript
-    ================================================== -->
+      ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-</body>
-
+  </body>
 </html>
