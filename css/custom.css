@@ -165,3 +165,7 @@ body {
     padding-left:0px;
     padding-right:0px;
 }
+
+.tab-pane .jumbotron {
+    margin-top: 50px;
+}
