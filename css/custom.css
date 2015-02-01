@@ -169,3 +169,15 @@ body {
 .tab-pane .jumbotron {
     margin-top: 50px;
 }
+
+.post-content {
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -54px;
+    text-align:center position: relative;
+    width:100%;
+}
+.wrapper {
+    text-align:center;
+}
