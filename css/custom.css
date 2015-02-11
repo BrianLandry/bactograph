@@ -169,3 +169,7 @@ body {
 .tab-pane .jumbotron {
     margin-top: 50px;
 }
+
+.biotech-show, .signalling-show{
+    display: none;
+}

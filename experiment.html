@@ -53,10 +53,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6 text-center">
-          <input type="checkbox" data-toggle="toggle" data-on="<span class='glyphicon glyphicon-ok'/> Cell Signalling Extension" data-off="<span class='glyphicon glyphicon-remove'/> Cell Signalling Extension" data-size="large" data-width="300">
+          <input id="signalling-toggle" type="checkbox" data-toggle="toggle" data-on="<span class='glyphicon glyphicon-ok'/> Cell Signalling Extension" data-off="<span class='glyphicon glyphicon-remove'/> Cell Signalling Extension" data-size="large" data-width="300">
         </div>
         <div class="col-sm-6 text-center">
-          <input type="checkbox" data-toggle="toggle" data-on="<span class='glyphicon glyphicon-ok'/> Biotechnology Extension" data-off="<span class='glyphicon glyphicon-remove'/> Biotechnology Extension" data-size="large" data-width="300" >
+          <input id="biotech-toggle" type="checkbox" data-toggle="toggle" data-on="<span class='glyphicon glyphicon-ok'/> Biotechnology Extension" data-off="<span class='glyphicon glyphicon-remove'/> Biotechnology Extension" data-size="large" data-width="300" >
         </div>
       </div>
       <h1>Preparation Day</h1>
@@ -64,7 +64,7 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="exp-heading">Melt Media</h2>
-          <p class="lead">Take the media tube and submerge it in boiling water until it completely liquefies (approximately 10 minutes). Store the melted media in the 37 degree incubator. This can be done any time at least 2 hours prior to the experimental day protocol, since the media simply has to cool to 37 degrees before use.</p>
+          <p class="lead">Take the media tube and submerge it in a container of boiling water until it completely liquefies (approximately 10 minutes). Store the melted media withe the container in a 37 degree incubator. This can be done any time at least 2 hours prior to the experimental day protocol, since the media simply has to cool to 37 degrees before use.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/boiling.svg" data-holder-rendered="true">
@@ -89,7 +89,7 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="exp-heading">Culture Bacteria</h2>
-          <p class="lead">Using a sterile object (pipette tips work) scrap bacteria from the hole in the agar stab and then shake off the tip in the culture media. Place the culture media in the 37 degree incubator and allow it to grow for 24 hours.</p>
+          <p class="lead">Using a sterile object (pipette tips work) scrap bacteria from the hole in the agar stab and then shake off the tip in the culture media. Place the culture media on its side in a 37 degree incubator and allow it to grow for 48 hours.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/culturing.svg" data-holder-rendered="true">
@@ -101,7 +101,20 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2>Prepare supplies</h2>
-          <p class="lead"></p>
+          <p class="lead">The class needs the following:</p>
+          <ul>
+            <li>Bacterial culture</li>
+            <li>Melted photography media</li>
+            <li>Tryptophan solution</li>
+          </ul>
+          <p class="lead">Each group needs the following:</p>
+          <ul>
+            <li>Pipette</li>
+            <li>Culture dish</li>
+            <li>Ice water bath</li>
+            <li>Transparency section</li>
+            <li>Permanent marker</li>
+          </ul>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="" data-holder-rendered="true">
@@ -110,18 +123,18 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2>Add bacterial media</h2>
-          <p class="lead">Use the pipette to transfer two volumes of bacterial media from the class supply to your petri dish. Transfer the media by fully depressing the bulb of the pipette and sucking up the media, then fully depress the bulb over the petri dish dispensing the liquid. Do this transfer twice for two pipette volumes. Make sure to transfer to the bottom of the petri dish (smaller side)!</p>
+          <h2>Add bacteria to photography media</h2>
+          <p class="lead">Remove the photography media and water container from the incubator. Keeping the photography in the water container will keep it warm and prevent it from solidifying for approximately 30 minutes. Take the bacterial culture and pour it into the photography tube.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/media-step.svg" data-holder-rendered="true">
         </div>
       </div>
-      <hr class="featurette-divider">
-      <div class="row featurette">
+      <hr class="featurette-divider biotech-hide">
+      <div class="row featurette biotech-hide">
         <div class="col-md-7">
-          <h2>Add bacteria</h2>
-          <p class="lead">Use the pipette to transfer one volume of bacteria from the class bacterial culture to your petria dish. Use the same method described in the previous step, however just transfer one volume.</p>
+          <h2>Add tryptophan</h2>
+          <p class="lead">Pour the tryptophan solution into the photography media.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/bacteria-step.svg" data-holder-rendered="true">
@@ -131,7 +144,7 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2>Mix in bacteria</h2>
-          <p class="lead">Mix the bacteria into the bacterial media by slowly swirling your petri dish for 15 rotations. If any bubbles have formed use the pipette to pop them or suck them up.</p>
+          <p class="lead">Gently invert the photography media 10 times to mix the cells and tryptophan thoroughly.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/mix-step.svg" data-holder-rendered="true">
@@ -140,8 +153,19 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-7">
+          <h2>Cast plate</h2>
+          <p class="lead biotech-hide">Add approximately 3mL of photography media to each petri dish, this can be done with a pipette or by careful pouring.  Quickly rotate the plate so that media is spread evenly, waiting too long will cause the media to solidify.</p>
+          <p class="lead biotech-show">Add approximately 3mL of photography media to each petri dish, this can be done with a pipette or by careful pouring. In the biotechnology extension add your chosen amount of tryptophan. We suggest between 0 to 0.6mL of the 10g/L tryptophan solution per photography. Quickly rotate the plate so that media is spread evenly, waiting too long will cause the media to solidify.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/ice-step.svg" data-holder-rendered="true">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
           <h2>Solidify media</h2>
-          <p class="lead">Place the lid on the petri dish. Solidify the media by placing the petri dish in 1/4 inch deep ice water and holding the dish down (and level) for 5 minutes. Insure the media has solidified by tilting the petri dish.</p>
+          <p class="lead">Allow the plate to sit uncovered for approximately 5 minutes to allow the media to solidify. Gently tilt the plate to insure the media is solidified before proceeding. If the media will not solidify carefully let it rest in an ice water bath.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/ice-step.svg" data-holder-rendered="true">
@@ -151,7 +175,7 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2>Attach image and incubate</h2>
-          <p class="lead">Draw the picture you want to take on a piece of transparency and cut it out. Flip the petri dish upside down and attach the cut out piece of transparency to the petri dish using clear tape. Place the dish into an illuminated incubator.</p>
+          <p class="lead">Draw the picture you want to take on a piece of transparency and cut it out. Cap the the petri dish and flip it upside down. Attach the cut out piece of transparency to the petri dish using clear tape. Place the dish into an illuminated incubator.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/tape-step.svg" data-holder-rendered="true">
@@ -167,6 +191,26 @@
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/nikitha.jpg" data-holder-rendered="true">
         </div>
       </div>
+      <hr class="featurette-divider biotech-show">
+      <div class="row featurette biotech-show">
+        <div class="col-md-7">
+          <h2>Analyze results: Biotechnology Extension</h2>
+          <p class="lead">Use the biotechnology worksheet to analyze the effect of tryptophan concentration on pigment production.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/nikitha.jpg" data-holder-rendered="true">
+        </div>
+      </div>
+      <hr class="featurette-divider signalling-show">
+      <div class="row featurette signalling-show">
+        <div class="col-md-7">
+          <h2>Analyze results: Cell Signalling</h2>
+          <p class="lead">Use the cell signalling worksheet to analyze the light sensing capabilities of the bacterial photography strain.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="images/nikitha.jpg" data-holder-rendered="true">
+        </div>
+      </div>
       <!-- /END THE FEATURETTES -->
       <a href="#" class="btn btn-block btn-lg btn-default"><span class="glyphicon glyphicon-save"></span> Download PDF of Manual</a>
       <!-- FOOTER -->
@@ -175,6 +219,7 @@
         </p>
       </footer>
     </div>
+    
     <!-- /.container -->
     <!-- Bootstrap core JavaScript
       ================================================== -->
@@ -184,5 +229,32 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/bootstrap-toggle.min.js"></script>
+    <!-- Control toggling the different experiments -->
+    <script>
+      $(function() {
+        $('#biotech-toggle').change(function() {
+        console.log("triggered");
+          if($(this).prop('checked')){
+            $('.biotech-show').show();
+            $('.biotech-hide').hide();
+          }
+          else {
+            $('.biotech-show').hide();
+            $('.biotech-hide').show();
+          }
+        })
+      })
+      $(function() {
+        $('#signalling-toggle').change(function() {
+        console.log("triggered");
+          if($(this).prop('checked')){
+            $('.signalling-show').show();
+          }
+          else {
+            $('.signalling-show').hide();
+          }
+        })
+      })  
+    </script>
   </body>
 </html>
