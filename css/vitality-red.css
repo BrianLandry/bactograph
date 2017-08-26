@@ -705,7 +705,7 @@ button:hover {
   background-color: #222; }
   .btn-full-width:hover {
     color: white;
-    background-color: #EF4035; }
+    /* background-color: #EF4035;*/ }
   .btn-full-width:focus {
     color: white; }
 
