@@ -161,6 +161,11 @@ header.masthead {
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 900;
     text-transform: uppercase; }
+  @media (max-width: 556px) {
+    header.masthead .masthead-title{
+      font-size: 3rem;
+    }
+  }
   header.masthead .masthead-subtitle {
     font-size: 1.5rem;
     line-height: 1.5rem; }
