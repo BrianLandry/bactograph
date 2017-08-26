@@ -782,3 +782,17 @@ a.text-primary {
     margin: 5px auto; }
   .team-picture .team-caption p {
     margin: 0; }
+
+  .caption-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    width: 100%;
+  }
+
+.mfp-figure:after {
+  background: #f8f9fa;
+}
